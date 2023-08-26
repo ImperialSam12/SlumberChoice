@@ -24,8 +24,6 @@ SlumberChoice is a Minecraft plugin that introduces a dynamic and collaborative 
 
 You can configure the plugin's settings by editing the `config.yml` file located in the `plugins/SlumberChoice` directory.
 
-- `voteThreshold`: Set the percentage of player votes required to skip the night. Default: `50`
-
 ## Support
 
 If you have any questions, you can open a ticket!
