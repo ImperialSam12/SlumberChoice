@@ -28,7 +28,7 @@ You can configure the plugin's settings by editing the `config.yml` file located
 
 ## Support
 
-If you encounter any issues or have questions about using the plugin, feel free to reach out to us on the plugin's [official Minecraft forum thread](link_to_thread_here) or contact us via email at support@slumberchoiceplugin.com.
+If you have any questions, you can open a ticket!
 
 ## Contributions
 
