@@ -46,7 +46,7 @@ Please follow the existing code style and conventions in the project when making
 
 ## License
 
-By contributing to SlumberChoice, you agree that your contributions will be licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for more details.
+By contributing to SlumberChoice, you agree that your contributions will be licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for more details.
 
 Thank you for your contribution!
 
