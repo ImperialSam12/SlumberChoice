@@ -1,0 +1,33 @@
+name: SlumberChoice
+version: SlumberChoice Alpha 1.0
+description: SlumberChoice is a Minecraft plugin that introduces a dynamic and collaborative way to control the passage of time.
+load: STARTUP
+author: Imperial_Sam
+main: xyz.orbismc.SlumberChoice.SlumberChoice
+api-version: 1.20
+
+commands:
+  slumberchoice:
+    description: Displays the current status of the nightvote.
+    permission: SlumberChoice.slumberchoice
+    permission-message: You do not have permission to do that.
+    usage: /slumberchoice
+  skipnight:
+    description: Votes to skip the night.
+    permission: SlumberChoice.skipnight
+    permission-message: You do not have permission to do that.
+    usage: /skipnight
+
+permissions:
+  SlumberChoice.slumberchoice:
+    description: Allows status command.
+    default: op
+  SlumberChoice.skipnight:
+    description: Allows skipping the night.
+    default: op
+  SlumberChoice.*:
+    description: Wildcard permission.
+    default: op
+    children:
+      slumberchoice: true
+      skipnight: true
